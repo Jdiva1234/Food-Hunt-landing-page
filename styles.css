@@ -1,0 +1,17 @@
+.nab{
+    background-color:#F1C376 ;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead{
+    font-style: italic;
+    font-size: 5%;
+}
+.navbar-brand{
+    padding: 1%;
+}
