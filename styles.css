@@ -1,17 +1,60 @@
-.nab{
-    background-color:#F1C376 ;
+:root {
+    --dark-utility-color: #333;
+    --white-utility-color: #fff;
+    --primary-color: #ccc;
+    --secondary-color: #F1C376;
 }
 
-ul{
+.nab {
+    background-color: var(--secondary-color);
+}
+
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.lead{
+.lead {
     font-style: italic;
     font-size: 5%;
 }
-.navbar-brand{
+
+.navbar-brand {
     padding: 1%;
+}
+
+/* Styling Navbar */
+#navbar-container ul {
+    background-color: var(--secondary-color);
+    color: #212529BF;
+
+    /* justify-content: space-evenly; */
+
+}
+
+#navbar-container ul li {
+
+    /* padding: 20px 10px; */
+    color: #212529BF;
+    padding: 1rem;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+#navbar-container ul li a {
+    text-decoration: none;
+    color: #212529BF;
+
+}
+
+.placeholder {
+    height: 100vh; /* Change the value to whatever height you want */
+  }
+
+.bg-primary{
+    background-color: var(--secondary-color);
+    color: #212529BF;
+
 }
