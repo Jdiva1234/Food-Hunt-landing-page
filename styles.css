@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+}
+
+
 :root {
     --dark-utility-color: #333;
     --white-utility-color: #fff;
@@ -13,6 +18,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.top {
+    margin-top: 0;
 }
 
 .lead {
@@ -50,13 +59,114 @@ ul {
 }
 
 .placeholder {
-    height: 100vh; /* Change the value to whatever height you want */
-  }
+    height: 100vh;
+    /* Change the value to whatever height you want */
+}
 
-.bg-primary{
+.bg-primary {
     background-color: var(--secondary-color);
     color: #212529BF;
 
 }
 
-.h2
+.class-for-contact {
+    background-color: #F2EDE6;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.image {
+    width: 25%;
+    border-radius: 0rem 6.25rem;
+    padding: 5px;
+    margin: 10px;
+}
+
+.left {
+    padding: 0 10px 10px 10px;
+    width: 65%;
+}
+
+.h2-contact {
+    color: #00054B;
+    font-family: Playfair Display;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.two-left {
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.inputSide {
+    width: 50%;
+}
+
+.noBorder {
+    border: none;
+    border-bottom: 3px solid #00024B;
+    padding: 10px;
+    width: 60%;
+    background-color: transparent;
+    margin-bottom: 30px;
+    ;
+}
+
+.button-contact {
+    border-radius: 3rem;
+    background: #00054B;
+    color: white;
+    width: 60%;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+}
+
+.contact-based {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.h3-Contact {
+    margin: 0;
+    color: #00054B;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.based {
+
+    padding-top: 20px;
+}
+
+.p-contact {
+    color: #00054B;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    margin: 0;
+}
+
+.img-logo {
+    margin-top: auto;
+    display: flex;
+}
+
+.img-logo img {
+    width: 40px;
+    margin-right: 40px;
+}
